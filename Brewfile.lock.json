@@ -24,6 +24,66 @@
         "options": {
           "full_name": "1password-cli"
         }
+      },
+      "alfred": {
+        "version": "5.0.5,2096",
+        "options": {
+          "full_name": "alfred"
+        }
+      },
+      "whatsapp": {
+        "version": "2.2242.6",
+        "options": {
+          "full_name": "whatsapp"
+        }
+      },
+      "microsoft-remote-desktop": {
+        "version": "10.7.10",
+        "options": {
+          "full_name": "microsoft-remote-desktop"
+        }
+      },
+      "spotify": {
+        "version": "1.1.98.691,f759311c,1412",
+        "options": {
+          "full_name": "spotify"
+        }
+      },
+      "evernote": {
+        "version": "10.48.5,3769,4b156c4353",
+        "options": {
+          "full_name": "evernote"
+        }
+      },
+      "slack": {
+        "version": "4.29.144",
+        "options": {
+          "full_name": "slack"
+        }
+      },
+      "brave-browser": {
+        "version": "1.45.123.0,145.123",
+        "options": {
+          "full_name": "brave-browser"
+        }
+      },
+      "the-unarchiver": {
+        "version": "4.3.5,139,1652457131",
+        "options": {
+          "full_name": "the-unarchiver"
+        }
+      },
+      "keyboard-maestro": {
+        "version": "10.2,1020",
+        "options": {
+          "full_name": "keyboard-maestro"
+        }
+      },
+      "cloudflare-warp": {
+        "version": "2022.9.582.0,20221011.16",
+        "options": {
+          "full_name": "cloudflare-warp"
+        }
       }
     },
     "brew": {
@@ -378,6 +438,63 @@
             }
           }
         }
+      },
+      "mas": {
+        "version": "1.8.6",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:e49511dd1283813c4420aec9fc3b3167d18f9fdbb51d82b1e479b628d5312342",
+              "sha256": "e49511dd1283813c4420aec9fc3b3167d18f9fdbb51d82b1e479b628d5312342"
+            },
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:379d46e2657be295321f1603dc1df28130ea0b5b264ceb192a9ba488d77c7a98",
+              "sha256": "379d46e2657be295321f1603dc1df28130ea0b5b264ceb192a9ba488d77c7a98"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:918a1484de106940f7bebc936e1ded87d7b65652054b09204887ad0651937ec4",
+              "sha256": "918a1484de106940f7bebc936e1ded87d7b65652054b09204887ad0651937ec4"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:6b313f2f66d028cb7782c108d6e502ce73ccb9c08fac3bece0b057fcce5c4689",
+              "sha256": "6b313f2f66d028cb7782c108d6e502ce73ccb9c08fac3bece0b057fcce5c4689"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:50b50f51219143fcb69c730b52b74011a76104f66348ea727d0200f7b375ae25",
+              "sha256": "50b50f51219143fcb69c730b52b74011a76104f66348ea727d0200f7b375ae25"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:d241d3b9156b033f3d2c31684a44de726297e07fd9bd5e3ccc4c36e4f1c3baf3",
+              "sha256": "d241d3b9156b033f3d2c31684a44de726297e07fd9bd5e3ccc4c36e4f1c3baf3"
+            }
+          }
+        }
+      }
+    },
+    "mas": {
+      "iMovie": {
+        "id": "408981434",
+        "version": "10.3.5"
+      },
+      "Keynote": {
+        "id": "409183694",
+        "version": "12.2"
+      },
+      "Numbers": {
+        "id": "409203825",
+        "version": "12.2"
+      },
+      "Pages": {
+        "id": "409201541",
+        "version": "12.2"
       }
     }
   },
@@ -386,7 +503,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.6.10",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "522d42deab7e61f770e75b03661e53ba08d5aca0",
+        "Homebrew/homebrew-core": "e612881b02f19737e44275229e5369aa8e0df287",
         "CLT": "14.1.0.0.1.1666437224",
         "Xcode": "14.1",
         "macOS": "12.6.1"

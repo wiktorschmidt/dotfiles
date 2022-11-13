@@ -22,3 +22,8 @@ cask "brave-browser"
 cask "the-unarchiver"
 cask "keyboard-maestro"
 cask "cloudflare-warp"
+
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
