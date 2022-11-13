@@ -1,4 +1,13 @@
 brew "syncthing"
 brew "node"
+brew "cloudflared"
+brew "screen"
+brew "wget"
+brew "nmap"
+brew "ansible"
+brew "blueutil"
 
 cask "sublime-text"
+cask "meetingbar"
+cask "alt-tab"
+cask "1password-cli"
