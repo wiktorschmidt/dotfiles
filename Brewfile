@@ -1,29 +1,42 @@
-brew "syncthing"
-brew "node"
-brew "cloudflared"
-brew "screen"
-brew "wget"
-brew "nmap"
-brew "ansible"
-brew "blueutil"
-brew "mas"
+tap '1password/tap'
+tap 'cloudflare/cloudflare'
 
-cask "sublime-text"
-cask "meetingbar"
-cask "alt-tab"
-cask "alfred"
-cask "1password-cli"
-cask "whatsapp"
-cask "microsoft-remote-desktop"
-cask "spotify"
-cask "evernote"
-cask "slack"
-cask "brave-browser"
-cask "the-unarchiver"
-cask "keyboard-maestro"
-cask "cloudflare-warp"
+brew 'syncthing'
+brew 'node'
+brew 'cloudflared'
+brew 'screen'
+brew 'telnet'
+brew 'wget'
+brew 'git'
+brew 'nmap'
+brew 'ansible'
+brew 'blueutil'
+brew 'switchaudio-osx'
+brew 'mas'
 
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+cask 'sublime-text'
+cask 'meetingbar'
+cask 'alt-tab'
+cask 'alfred'
+cask '1password-cli'
+cask 'whatsapp'
+cask 'microsoft-remote-desktop'
+cask 'spotify'
+cask 'evernote'
+cask 'slack'
+cask 'brave-browser'
+cask 'the-unarchiver'
+cask 'keyboard-maestro'
+cask 'cloudflare-warp'
+cask 'notion'
+cask 'zoom'
+cask 'microsoft-teams'
+cask 'mullvadvpn'
+cask 'vlc'
+cask 'kindle'
+cask 'postman'
+
+mas 'iMovie', id: 408981434
+mas 'Keynote', id: 409183694
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
