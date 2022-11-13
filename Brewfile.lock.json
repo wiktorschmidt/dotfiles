@@ -44,7 +44,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.98.691,f759311c,1417",
+        "version": "1.1.98.691,f759311c,1412",
         "options": {
           "full_name": "spotify"
         }
@@ -680,7 +680,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.6.10",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "e612881b02f19737e44275229e5369aa8e0df287",
+        "Homebrew/homebrew-core": "5afed8f87ce8f5a60af926f05168c5a2f5368d17",
         "CLT": "14.1.0.0.1.1666437224",
         "Xcode": "14.1",
         "macOS": "12.6.1"
