@@ -1,0 +1,7 @@
+- create:
+    ~/.ssh:
+      mode: 0700
+- link:
+    ~/.gitconfig:
+    ~/.zshrc:
+    ~/.ssh/config: sshconfig
